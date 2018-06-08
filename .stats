@@ -1,0 +1,59 @@
+Hash: 6fab5706bfd038e680a2
+Version: webpack 3.12.0
+Time: 4915ms
+                           Asset      Size  Chunks             Chunk Names
+                     manifest.js   13.7 kB       7  [emitted]  manifest
+   owner.js?6fab5706bfd038e680a2   98.6 kB       0  [emitted]  owner
+   error.js?6fab5706bfd038e680a2   4.53 kB       2  [emitted]  error
+    show.js?6fab5706bfd038e680a2   1.51 kB       3  [emitted]  show
+  script.js?6fab5706bfd038e680a2   1.72 kB       4  [emitted]  script
+ordering.js?6fab5706bfd038e680a2   1.51 kB       5  [emitted]  ordering
+  folder.js?6fab5706bfd038e680a2   1.51 kB       6  [emitted]  folder
+     hot.js?6fab5706bfd038e680a2   6.72 kB       1  [emitted]  hot
+                       error.css   12.7 kB       2  [emitted]  error
+                      folder.css  81 bytes       6  [emitted]  folder
+                         hot.css   12.7 kB       1  [emitted]  hot
+                    ordering.css  81 bytes       5  [emitted]  ordering
+                       owner.css  81 bytes       0  [emitted]  owner
+                      script.css  81 bytes       4  [emitted]  script
+                        show.css  81 bytes       3  [emitted]  show
+  [11] multi ./client/pages/error/index.js 28 bytes {2} [built]
+  [12] ./client/pages/error/index.js 2.09 kB {2} [built]
+  [14] ./client/pages/error/index.scss 41 bytes {2} [built]
+  [16] multi ./client/pages/folder/index.js 28 bytes {6} [built]
+  [17] ./client/pages/folder/index.js 2.04 kB {6} [built]
+  [19] multi ./client/pages/hot/index.js 28 bytes {1} [built]
+  [20] ./client/pages/hot/index.js 2.16 kB {1} [built]
+  [23] multi ./client/pages/ordering/index.js 28 bytes {5} [built]
+  [24] ./client/pages/ordering/index.js 2.04 kB {5} [built]
+  [26] multi ./client/pages/owner/index.js 28 bytes {0} [built]
+  [27] ./client/pages/owner/index.js 2.31 kB {0} [built]
+  [38] multi ./client/pages/script/index.js 28 bytes {4} [built]
+  [39] ./client/pages/script/index.js 2.36 kB {4} [built]
+  [41] multi ./client/pages/show/index.js 28 bytes {3} [built]
+  [42] ./client/pages/show/index.js 2.04 kB {3} [built]
+    + 39 hidden modules
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/error/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/error/index.scss 182 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/folder/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/folder/index.scss 246 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/hot/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/hot/index.scss 186 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/common/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/common/index.scss 12.8 kB {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/ordering/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/ordering/index.scss 246 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/owner/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/owner/index.scss 246 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/script/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/script/index.scss 246 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
+Child extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--3-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/sass-loader/lib/loader.js!client/pages/show/index.scss:
+       [0] ./node_modules/css-loader??ref--3-2!./node_modules/postcss-loader/lib??postcss!./node_modules/sass-loader/lib/loader.js!./client/pages/show/index.scss 246 bytes {0} [built]
+       [1] ./node_modules/css-loader/lib/css-base.js 2.26 kB {0} [built]
